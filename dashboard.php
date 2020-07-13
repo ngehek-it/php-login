@@ -15,16 +15,16 @@ if (!isset($_SESSION['auth'])) {
     <style>
       body {
         background: rgba(231,56,39,1);
-        background: -moz-linear-gradient(top, rgba(231,56,39,1) 0%, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 40%, rgba(246,41,12,1) 50%, rgba(255,255,255,1) 50%);
-        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(231,56,39,1)), color-stop(0%, rgba(231,56,39,1)), color-stop(40%, rgba(240,47,23,1)), color-stop(50%, rgba(246,41,12,1)), color-stop(50%, rgba(255,255,255,1)));
-        background: -webkit-linear-gradient(top, rgba(231,56,39,1) 0%, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 40%, rgba(246,41,12,1) 50%, rgba(255,255,255,1) 50%);
-        background: -o-linear-gradient(top, rgba(231,56,39,1) 0%, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 40%, rgba(246,41,12,1) 50%, rgba(255,255,255,1) 50%);
-        background: -ms-linear-gradient(top, rgba(231,56,39,1) 0%, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 40%, rgba(246,41,12,1) 50%, rgba(255,255,255,1) 50%);
-        background: linear-gradient(to bottom, rgba(231,56,39,1) 0%, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 40%, rgba(246,41,12,1) 50%, rgba(255,255,255,1) 50%);
+        background: -moz-linear-gradient(top, #3f768b 50%, rgba(255,255,255,1) 50%);
+        background: -webkit-gradient(left top, left bottom, color-stop(50%, #3f768b), color-stop(50%, rgba(255,255,255,1)));
+        background: -webkit-linear-gradient(top, #3f768b 50%, rgba(255,255,255,1) 50%);
+        background: -o-linear-gradient(top, #3f768b 50%, rgba(255,255,255,1) 50%);
+        background: -ms-linear-gradient(top, #3f768b 50%, rgba(255,255,255,1) 50%);
+        background: linear-gradient(to bottom, #3f768b 50%, rgba(255,255,255,1) 50%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#ffffff', GradientType=0 );
       }
       .card {
-        background-color: #310705bf;
+        background-color: #305b6bbf;
       }
       .rounded-mine {
         border-radius: 20px;
@@ -36,8 +36,8 @@ if (!isset($_SESSION['auth'])) {
 
       .btn-mine {
         color: #fff;
-        background-color: #8824129c;
-        border-color: #8824129c;
+        background-color: #305b6bbf;
+        border-color: #305b6bbf;
       }
     </style>
   </head>
